@@ -20,14 +20,14 @@ body{
     min-height: 1000px;
     background: #fff;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1.5fr 2fr;
     box-shadow: 0 35px 35px rgba(0,0,0,0.1);
     margin: 50px;
 }
 .container .left_side{
     position: relative;
     background: #003147;
-    padding: 40px;
+    padding: 10px;
 }
 .profiletext{
     position: relative;
@@ -81,7 +81,7 @@ body{
 .contactinfo ul li{
     position: relative;
     list-style: none;
-    margin: 10px 0;
+    margin: 5px 0;
     cursor: pointer;
 }
 .contactinfo ul li .icon{
@@ -93,6 +93,7 @@ body{
 .contactinfo ul li span{
     color: #fff;
     font-weight: 300;
+
 }
 .contactinfo.education li{
      margin-bottom: 15px;
@@ -104,6 +105,7 @@ body{
 .contactinfo.education h4:nth-child(2){
     color: #fff;
     font-weight: 500;
+    font-size: 18px;
 }
 .contactinfo.education h4{
     color: #fff;
